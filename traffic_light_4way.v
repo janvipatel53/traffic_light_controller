@@ -43,7 +43,7 @@ module smart_traffic_4way(
     parameter GREEN_TIME  = 8;
     parameter YELLOW_TIME = 3;
 
-    // this function decides which road gets green next
+    //  function decides which road gets green next
     // if more than 1 car is present, priority is used
     // priority: north > east > south > west
     function [3:0] choose_next_green;
