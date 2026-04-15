@@ -39,7 +39,7 @@ module tb_smart_traffic_4way_fileinput;
     endfunction
 
     initial begin
-        // waveform dump for gtkwave
+        
         $dumpfile("smart_traffic_4way.vcd");
         $dumpvars(0, tb_smart_traffic_4way_fileinput);
 
